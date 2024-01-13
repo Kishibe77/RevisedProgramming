@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <title>属性</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="HTML">
+            <h1 style="color: whitesmoke;">HTMLと属性と</h1>
+            <h2 style="color: whitesmoke;">HTMLはHyperText Markup Languageの略</h2>
+            <p class="title"><span>H</span>yper<span>T</span>ext <span>M</span>arkup <span>L</span>anguage</p>
+
+            <p class="explain">Hyper(ハイパー)は「何々を超える」という意味なので、通常の文字列を超えた仕組みを持つテキストのこと。ウエブでは別のテキストやページ、画像に移動できるテキスト。ハイパーリンクを備えたテキスト。<br>
+            マークアップとは「印をつける」という意味。もともとは印刷業界で使われている校正記号を指していました。HTMLではタグをつけてテキストの表示の仕方や意味付けをしていきます。</p>
+
+        </div>
+
+        <div class="Attribute">
+            <h2 class="AttriTitle">属性はAttribute <br>-語源を知るとわかりやすい-</h2>
+
+            <!--吹き出しはじまり-->
+
+                <div class="balloon1">
+                    <div class="icon"> <img src="./Dog.png" class="cat"> </div>
+                    「属性」は英語attributeを難しく日本語に訳しているんだよねえ。
+                    <br>attributeの語源をたどると「任命する、付与する、授ける」という意味がある。
+                </div>
+                <!--吹き出し終わり-->
+                <br>
+                <br>
+                <div class="balloon2">
+                    <div class="icon"> <img src="./cat.png" class="cat"> </div>
+                    だったら「属性」とは、要素にある設定を「任命する、授ける」と言えるわね。
+                    <br>そういえば、&lt;a&gt;&lt;/a&gt;（アンカータグ）は必ず属性をつけるよね。
+                </div>
+                <br>
+                <br>
+                <div class="balloon1">
+                    <div class="icon"> <img src="./Dog.png" class="cat"> </div>
+                    そう。例えば<span class="linktext">&lt;a&gt;Googleに行こう&lt;/a&gt;</span>とアンカータグ単体で書いても、下のようにただのテキストで出るだけ。
+                    <br> <span class="linktext"><a>Googleに行こう</a></span>
+                    <br>リンク先がわからないから、どこにも行けない。
+                </div>
+                <br>
+                <br>
+                <div class="balloon2">
+                    <div class="icon"> <img src="./cat.png" class="cat"> </div>
+                    そこでhrefという属性さんが、行先を「任命する」必要がある…と。
+                </div>
+                <br>
+                <br>
+                <div class="balloon1">
+                    <div class="icon"> <img src="./Dog.png" class="cat"> </div>
+                    そう。だからこう書くと、
+                        <span class="linktext">&lt;a href="https://www.google.com"&gt;Googleへ行こう&lt;/a&gt;</span>
+                </div>
+                <br>
+                <br>
+                <div class="balloon2">
+                    <div class="icon"> <img src="./cat.png"  class="cat"> </div>
+                    <a href="https://www.google.com" target="_blank">Googleへ行こう</a> ハイパーテキストに変わった！クリックしてグーグルに行けた！
+                </div>
+                <br>
+                <br>
+                <div class="balloon1">
+                    <div class="icon"> <img src="./Dog.png" class="cat"> </div>
+                    このように「属性はタグに色々な機能や設定を加えてくれる」と言えばいいかな。
+                </div>
+                <br>
+                <br>
+                <div class="balloon2">
+                    <div class="icon"> <img src="./cat.png" class="cat"> </div>
+                    ところで、さっきのハイパーテキストをクリックすると、別タブでGoogleサイトが開くんだけど。どうやったら、別タブで開けるようになるの？
+                </div>
+                <br>
+                <br>
+                <div class="balloon1">
+                    <div class="icon"> <img src="./Dog.png" class="cat"> </div>
+                    あ、ごめん、ごめん。属性をもう一つつけたんだ。
+                    <br>
+                    <span class="linktext">&lt;a href="https://www.google.com" target="_blank"&gt;Googleへ行こう&lt;/a&gt;</span>
+                    <br>targetは、リンク先のページをどこで開くかを示す属性。
+                    <br>_blankは別タブで開きなさい、と言う意味。
+                </div>
+                <br>
+                <br>
+                <div class="balloon2">
+                    <div class="icon"> <img src="./cat.png" width="100px" class="cat"> </div>
+                    ふーん、属性はいくつもつけられるんだ。知らなかった。
+                </div>
+                <br>
+                <br>
+                <div class="balloon1">
+                    <div class="icon"> <img src="./Dog.png" width="100px" class="cat"> </div>
+                    うん、でも、属性は必ず開始タグの中につけてね！これ大事だよ！
+                </div>
+                <br>
+                <br>
+
+
+
+
+        </div>
+    </div>
+
+</body>
+</html>
